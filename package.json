@@ -3,7 +3,6 @@
   "version": "0.0.719",
   "description": null,
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/qknmoqv75j",
   "main": "index.js",
   "dependencies": {
     "lodash-es": "^4.17.11",
