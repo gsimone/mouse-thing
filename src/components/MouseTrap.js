@@ -1,4 +1,4 @@
-import React, { useContext, useRef, memo } from 'react'
+import { useRef } from 'react'
 import useTinyEvents from '../hooks/useTinyEvents'
 
 import { MouseThingContext } from '../myContext'
@@ -8,9 +8,6 @@ import useMouseThing from '../hooks/useMouseThing'
 export function MouseTrap(props) {
     const {
         mouse: { x, y },
-        setActiveArea,
-        setActiveContainer,
-        setAdditionalProps,
         mouseenter,
         activeArea,
         mouseleave,

@@ -1,16 +1,15 @@
-import React, { useContext, useRef, memo } from 'react'
+import { useContext, useState } from 'react'
 import useTinyEvents from './useTinyEvents'
 
 import { MouseThingContext } from '../myContext'
 
 const useMouseThing = () => {
-    const [key, setKey] = React.useState()
+    const [key, setKey] = useState()
     const {
         mouse,
         setActiveContainer,
         setActiveArea,
         setAdditionalProps,
-        setMousedown,
         activeContainer,
         additionalProps,
         activeArea,

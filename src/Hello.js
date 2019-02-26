@@ -7,7 +7,7 @@ import imgUrl2 from "./img2.jpeg";
 
 import MouseTrap from "./components/MouseTrap";
 
-import { animated, useSpring, interpolate } from 'react-spring'
+import { animated, useSpring } from 'react-spring'
 import { clamp } from 'lodash-es'
 
 function Magnet({ x, y, active, children }) {

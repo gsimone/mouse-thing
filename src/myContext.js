@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useContext, useState, useRef, memo } from "react";
+import React, { createContext, useState, useRef } from "react";
 import useTinyEvents from './hooks/useTinyEvents'
 
 export const MouseThingContext = createContext({ x: 0, y: 0 });

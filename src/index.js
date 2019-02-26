@@ -18,8 +18,6 @@ function Pointer(props) {
   const { x, y } = mouse
 
   const box = activeContainer && activeContainer.getBoundingClientRect();
-
-  const scale = activeArea === "big" ? 10 : 1;
   const trapped = activeArea === "anchor" || activeArea === "big";
 
   return (
